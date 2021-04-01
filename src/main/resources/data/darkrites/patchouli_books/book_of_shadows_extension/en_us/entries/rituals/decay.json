@@ -4,7 +4,6 @@
     "icon": "minecraft:rotten_flesh",
     "entry_color": "C15600",
     "advancement": "bewitchment:hidden_unlocks/chalk",
-    "flag": "dr_decay",
     "pages": [
       {
         "type": "text",
