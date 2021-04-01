@@ -1,4 +1,4 @@
-package net.fabricmc.example.mixin;
+package devarcana.darkrites.common.mixin;
 
 import net.minecraft.client.gui.screen.TitleScreen;
 import org.spongepowered.asm.mixin.Mixin;
