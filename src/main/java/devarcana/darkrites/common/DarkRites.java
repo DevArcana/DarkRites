@@ -1,14 +1,18 @@
 package devarcana.darkrites.common;
 
+import devarcana.darkrites.common.registry.DRRitualFunctions;
 import net.fabricmc.api.ModInitializer;
+import net.minecraft.util.Identifier;
 
 public class DarkRites implements ModInitializer {
+	public static final String MODID = "darkrites";
+
 	@Override
 	public void onInitialize() {
-		// This code runs as soon as Minecraft is in a mod-load-ready state.
-		// However, some things (like resources) may still be uninitialized.
-		// Proceed with mild caution.
+		DRRitualFunctions.init();
+	}
 
-		System.out.println("Hello Fabric world!");
+	public static Identifier id(String name) {
+		return new Identifier(MODID, name);
 	}
 }
