@@ -44,6 +44,10 @@ repositories {
 		url "https://dl.bintray.com/ladysnake/mods"
 	}
 	maven {
+		name = "Mod Menu"
+		url =  "https://maven.terraformersmc.com/releases"
+	}
+	maven {
 		name = "jitpack"
 		url = "https://jitpack.io"
 	}
@@ -76,6 +80,8 @@ dependencies {
 
 	modImplementation "io.github.ladysnake:requiem-api:${project.requiem_version}"
 	modRuntime "io.github.ladysnake:requiem:${project.requiem_version}"
+
+	modImplementation "com.terraformersmc:modmenu:${project.modmenu_version}"
 }
 
 processResources {
