@@ -1,12 +1,7 @@
 package devarcana.darkrites.common;
 
-import ladysnake.requiem.api.v1.RequiemApi;
 import ladysnake.requiem.api.v1.RequiemPlugin;
-import ladysnake.requiem.api.v1.event.requiem.InitiateFractureCallback;
 import ladysnake.requiem.api.v1.event.requiem.PossessionStartCallback;
-import ladysnake.requiem.api.v1.event.requiem.PossessionStateChangeCallback;
-import ladysnake.requiem.api.v1.possession.PossessionComponent;
-import ladysnake.requiem.api.v1.remnant.RemnantComponent;
 import moriyashiine.bewitchment.common.entity.interfaces.FamiliarAccessor;
 import net.minecraft.nbt.CompoundTag;
 
