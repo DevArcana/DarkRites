@@ -4,7 +4,8 @@
   "package": "devarcana.darkrites.common.mixin",
   "compatibilityLevel": "JAVA_8",
   "mixins": [
-    "CleansingRitualMixin"
+    "CleansingRitualMixin",
+    "MutableRemnantStateMixin"
   ],
   "injectors": {
     "defaultRequire": 1

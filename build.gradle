@@ -79,7 +79,7 @@ dependencies {
 	modImplementation "curse.maven:bewitchment-394915:${project.bewitchment_version}"
 
 	modImplementation "io.github.ladysnake:requiem-api:${project.requiem_version}"
-	modRuntime "io.github.ladysnake:requiem:${project.requiem_version}"
+	modImplementation "io.github.ladysnake:requiem:${project.requiem_version}"
 
 	modImplementation "com.terraformersmc:modmenu:${project.modmenu_version}"
 }
